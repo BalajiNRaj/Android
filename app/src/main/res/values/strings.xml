@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AirQuality</string>
+    <string name="auth_failed">Authentication error, Please enter a valid email and password or sign up</string>
+    <string name="err_msg_email">Enter a valid email.</string>
+    <string name="err_msg_required">Required !!</string>
+    <string name="err_msg_password">Enter a valid password with min 6 characters.</string>
+    <string name="signout">Sign_out</string>
+    <string name="button">Button</string>
+    <string name="log_in">Log In</string>
+    <string name="login">LogIn</string>
+
+
+    <string name="share_activity">Share Activity Demo</string>
+    <string name="shared_activity">Shared Activity Demo</string>
+    <string name="imageview">Share ImageView</string>
+    <string name="share_image">Share Image</string>
+    <string name="share_text">Share Text</string>
+    <string name="select_image">Select Image</string>
+    <string name="enter_text">Enter something to share</string>
+    <string name="shared_text">Shared Text</string>
+    <string name="shared_image">Shared Image</string>
+</resources>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        android:id="@+id/humidityCardView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="25dp"
+        android:background="@android:color/transparent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="332dp"
+                android:layout_height="279dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                android:stretchColumns="*"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appCompatImageView"
+                app:layout_constraintVertical_bias="1.0">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+
+                    <TextView
+                        android:maxWidth="25dp"
+                        android:padding="3dip"
+                        android:text="AQI Level"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:maxWidth="30dp"
+                        android:padding="5dip"
+                        android:text="Numeric Value"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#33cc33">
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="0 to 10"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#afaf59">
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="Moderate"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="11 to 20"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ff9900">
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="Unhealthy for Sensational Groups"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="21 to 30"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#990000">
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="Unhealthy"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="31 to 40"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#99004d">
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="Very Unhealthy"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="41 to 60"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#cc0000">
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="Hazardous"
+                        android:textColor="@android:color/white" />
+
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:maxWidth="42dp"
+                        android:padding="3dip"
+                        android:text="> 60"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="23dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_opacity_black_24dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.29"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.22000003" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/appCompatImageView"
+                android:layout_width="132dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/air_app44637"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="24dp"
+                android:text="0.3796 to 1 Very Pure"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appCompatImageView" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="24dp"
+                android:text="1 to 10 pure"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="24dp"
+                android:text="10 to 30 Good"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="24dp"
+                android:text="30 to 40 Moderate"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="24dp"
+                android:text="40 to 60 Satisfactory"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="24dp"
+                android:text="60 to 75 Poor"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="24dp"
+                android:text="75 to 80 Very Poor"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                android:visibility="invisible" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+<!--</android.support.constraint.ConstraintLayout>-->
